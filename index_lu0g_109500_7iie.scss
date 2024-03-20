@@ -1,0 +1,24 @@
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+apple
+
+const reverseString = str => str.split("").reverse().join("");
+const getRandomSubset = (array, size) => array.slice(0, size);
+49 + 44,10,40,32,87,88,14,27
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+apple
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+console.log(getRandomString());
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+grape
+
+const getRandomSubset = (array, size) => array.slice(0, size);
